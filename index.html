@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Image Carousel</title>
+  </head>
+  <body>
+    <h1>Imagen Carousel</h1>
+    <hr />
+    <div class="container">
+      <div class="image fade">
+        <img src="images/agriculture-7302617_640.jpg" alt="agriculture" />
+      </div>
+      <div class="image fade">
+        <img src="images/bird-7271620_640.jpg" alt="bird" />
+      </div>
+      <div class="image fade">
+        <img src="images/bird-7310393_640.jpg" alt="bird" />
+      </div>
+      <div class="image fade">
+        <img src="images/building-7300734_640.jpg" alt="building" />
+      </div>
+      <div class="image fade">
+        <img src="images/mountains-7305769_640.jpg" alt="mountains" />
+      </div>
+      <div class="image fade">
+        <img src="images/otter-7307280_640.jpg" alt="otter" />
+      </div>
+      <div class="image fade">
+        <img src="images/pet-7308330_640.jpg" alt="pet" />
+      </div>
+      <div class="image fade">
+        <img src="images/waterfall-7315169_640.jpg" alt="waterfall" />
+      </div>
+      <i id="prev" onclick="show_image(-1)" class="fa-solid fa-angles-left"></i>
+      <i id="next" onclick="show_image(1)" class="fa-solid fa-angles-right"></i>
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
